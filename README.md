@@ -1,5 +1,9 @@
-Improving the protein inference from bottom-up proteomic data using protein identifications from MS1 spectra
--------------------------------------------------------------------------------------------------------------
+About the project
+------------------
+This repository contains a tutorial and supporting information for the project "Improving the protein inference from bottom-up proteomic data using protein identifications from MS1 spectra". The project details are published in the *Currently Under Review*.
+
+Fake protein database generation
+---------------------------------
 
 This repository contains a simple iPython notebook which creates fake protein homologues. These homologues can be used for estimation of efficiency of protein inference algorithms. Additionally, the Swiss-Prot human database extended with fake protein homologues was uploaded. These fake proteins are the target proteins with 1%, 5% and 25% of replaced amino acids. Also, the fake protein databases extended with decoys proteins in either reversed or shuffled forms are uploaded.
 
@@ -24,11 +28,13 @@ Simple example of usage is:
 
 The output of Scavager contains multiple tables and among them is table called *protein_groups.tsv where chosen protein group leaders are marked with column "groupleader". The analysis is done using the extended parsimony algorithm described in the manuscript if "-ms1" option was used. Scavager can be applied to the output of multiple search engines. Currently supported search engines: IdentiPy, X!Tandem, Comet, MSFragger, MSGF+ and Morpheus.
 
-Python implementation of the proposed algorithm:
--------------------------------------------------
-This repository contains an iPython notebook with Python function for the proposed method. This function is a realization of algorithms described in the supporting materials for the manuscript. This code is provided mostly for an advanced users and developers who are interested in their own implementation of the proposed algorithm.
+Python implementation of the parsimony+DirectMS1 algorithm:
+------------------------------------------------------------
+This repository contains an iPython notebook with Python function for the proposed method. This code is provided mostly for an advanced users and developers who are interested in their own implementation of the proposed algorithm.
 
 
 Links
 ------
 - Mailing list: markmipt@gmail.com
+- DirectMS1 repo: https://github.com/markmipt/ms1searchpy
+- Scavager repo: https://github.com/markmipt/scavager
