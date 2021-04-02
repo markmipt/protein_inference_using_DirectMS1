@@ -5,7 +5,7 @@ This repository contains a tutorial and supporting information for the project "
 Fake protein database generation
 ---------------------------------
 
-This repository contains a simple iPython notebook which creates fake protein homologues. These homologues can be used for estimation of efficiency of protein inference algorithms. Additionally, the Swiss-Prot human database extended with fake protein homologues was uploaded. These fake proteins are the target proteins with 1%, 5% and 25% of replaced amino acids. Also, the fake protein databases extended with decoys proteins in either reversed or shuffled forms are uploaded.
+This repository contains a simple iPython notebook which creates fake protein homologs. These homologs can be used for estimation of efficiency of protein inference algorithms. Additionally, the Swiss-Prot human database extended with fake protein homologs was uploaded. These fake proteins are the target proteins with 1%, 5% and 25% of replaced amino acids. Also, the fake protein databases extended with decoys proteins in either reversed or shuffled forms are uploaded.
 
 Tutorial for usage of MS1 spectra for improving the protein inference algorithms:
 ----------------------------------------------------------------------------------
