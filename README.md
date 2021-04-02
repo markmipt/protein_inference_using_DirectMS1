@@ -1,6 +1,6 @@
 About the project
 ------------------
-This repository contains a tutorial and supporting information for the project "Improving the protein inference from bottom-up proteomic data using protein identifications from MS1 spectra". The project details are published in the *Currently Under Review*.
+This repository contains a tutorial and supporting information for the project "Improving the protein inference from bottom-up proteomic data using protein identifications from MS1 spectra". The project details are expected to be published in the manuscript currently under review.
 
 Fake protein database generation
 ---------------------------------
